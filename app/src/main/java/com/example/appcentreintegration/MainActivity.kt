@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
             Analytics::class.java, Crashes::class.java
         )
 
-       /* val future = Crashes.hasCrashedInLastSession()
+        val future = Crashes.hasCrashedInLastSession()
         future.thenAccept(AppCenterConsumer {
             if(it){
                 Toast.makeText(this, "Oops! Sorry about that crash!", Toast.LENGTH_LONG).show()
             }
-        })*/
+        })
 
         calculateButton.setOnClickListener {
             // Crashes.generateTestCrash()
