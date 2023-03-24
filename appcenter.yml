@@ -1,8 +1,0 @@
-env:
-  global:
-    - JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-
-pre-build:
-  steps:
-    - script: echo "Setting JAVA_HOME variable"
-    - script: export JAVA_HOME=C:\Program Files\Java\jdk-11
