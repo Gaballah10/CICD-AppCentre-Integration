@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         AppCenter.start(
-            application, "6763e96a-4dd7-44e9-9722-0ad4124c4e02",
+            application, "4535525d-1c6b-443c-80ab-afbf3a40dd9d",
             Analytics::class.java, Crashes::class.java
         )
 
